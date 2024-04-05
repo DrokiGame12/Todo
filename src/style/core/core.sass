@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+// @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+*
+	margin: 0
+	padding: 0
+	color: #fff
+	font-family: Roboto
+	// font-family: Reddit Mono
+
+body
+	background-color: lime
+.conteiner
+	width: 1200px
+	@media (max-width:1200px) 
+		width: 100%
+
+input
+	background-color: #2c2e35
+	border: 1px solid #818181
+	color: #fff
+	border-radius: 5px
+	padding: 10px
+	font-size: 16px
+	&:hover
+		border-color: #bdbdbd
+	&:focus
+		outline: none
+		border-color: #bdbdbd
+button
+	cursor: pointer
+	height: 30px
+	width: 100px
+	display: flex
+	justify-content: center
+	align-items: center
+	gap: 5px
+	border: none
+	border-radius: 5px
+	transition: 0.2s
+	font-size: 16px
+	&:hover
+		transform: scale(1.1)
+	&:active
+		transform: scale(1.05)
+	img
+		width: 20px
+		height: 20px

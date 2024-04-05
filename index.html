@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/main.css">
+    <title>[ TODO ]</title>
+</head>
+<body>
+
+	<header>
+		<div class="conteiner">
+			<div class="header">
+				<label for="search" class="search_input">
+					<input 
+						type="text" 
+						name="search"
+						placeholder="Input the name of todo">
+					<button><img src="./src/images/icons/search-icon.svg" alt="Search"><b>Search</b></button>
+				</label>
+				<div class="user">
+					<h3>User name</h3>
+					<button><img src="./src/images/icons/logout-icon.svg" alt="Log out"><b>Log out</b></button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="todoList">
+			<div class="conteiner">
+				<div class="list">
+					<div class="item">hello</div>
+					<div class="item">hello</div>
+					<div class="item">hello</div>
+					<div class="item">hello</div>
+					<div class="item">hello</div>
+					<div class="item">hello</div>
+				</div>
+			</div>
+		</div>
+		<div class="conteiner">
+			<div class="login">
+				<h1 id="mode">REGINTER</h1>
+				<div class="form">
+					<input type="text" id="login">
+					<input type="password" id="password">
+					<button onclick="register()" id="action">register</button>
+				</div>
+			</div>
+			<button onclick="changeMode(event)">sing in</button>
+		</div>
+	</main>
+
+	<script src="./src/app.js"></script>
+</body>
+</html>
